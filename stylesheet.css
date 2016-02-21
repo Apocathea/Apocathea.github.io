@@ -1,0 +1,61 @@
+* {
+    font-family: Corbel, sans-serif;
+}
+
+.main-header { /* Sets the colour and position of the header, and fixes it to the screen */
+	background-color: #44210F;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	
+	/* This is the shadow section */
+	-webkit-box-shadow: 0 8px 8px -6px #000; /* horisontal align, vertical align, blur amount, spread amount, colour. */
+	-moz-box-shadow: 0 8px 8px -6px #000;
+	box-shadow: 0 8px 8px -6px #000;
+}
+
+.header-links { /* This section makes your links all on the same line, and centered inside there boxes */
+    display: inline-block; 
+    text-align: center;
+}
+
+.header-links a { /* Makes the links nicer looking and iligns them properly */
+	color: #fff;
+	text-decoration: none;
+    font-size: 16px;
+	padding-top: 15px;
+	padding-left: 21px;
+	padding-right: 21px;
+	padding-bottom: 16px;
+}
+
+.header-links a:hover { /* The hover changes for the links */
+    color: #C6571B;
+    background-color: #fff;
+    
+}
+
+#link-active a { /* Shows the active link */
+	color: #C6571B;
+	background-color: #fff;
+}
+
+.main-header ul { 
+    float: right;
+    width: 245px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.logo { /* Makes your logo align and look properly */
+	width: 270px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#logo { /* Sets the size of your logo */
+	width: 250px;
+}
