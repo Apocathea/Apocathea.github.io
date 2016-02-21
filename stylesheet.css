@@ -20,37 +20,22 @@
     text-align: center;
 }
 
-.header-links a { /* Makes the links nicer looking and iligns them properly */
-	color: #fff;
-	text-decoration: none;
-    font-size: 16px;
-	padding-top: 15px;
-	padding-left: 21px;
-	padding-right: 21px;
-	padding-bottom: 16px;
+.navigation-link {
+    display: inline-block;
 }
 
-.header-links a:hover { /* The hover changes for the links */
-    color: #C6571B;
-    background-color: #fff;
-    
-}
-
-#link-active a { /* Shows the active link */
-	color: #C6571B;
-	background-color: #fff;
+.nav-button {
+    width: 65px;
 }
 
 .main-header ul { 
     float: right;
-    width: 245px;
-    padding-top: 20px;
     padding-right: 50px;
 }
 
 .logo { /* Makes your logo align and look properly */
 	width: 270px;
-	padding-top: 10px;
+	padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 50px;
     display: inline-block;
